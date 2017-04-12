@@ -44,7 +44,7 @@ input[type=submit]:hover {
 
 .container {
     border-radius: 5px;
-    background-color: #f2f2f2;
+    background-color: #ffffff;
     padding: 20px;
 }
 
@@ -73,8 +73,6 @@ header {
 
 nav>ul {
     float: right;
-    color: #777777;
-    font-family: 'Georgia', Times, Times New Roman, serif;
     margin-right: 100px;
     margin-top: 15px;
 }
@@ -84,6 +82,9 @@ nav>ul {
     border-right-color: #4aaaa5;
     border-right-width: thin;
     padding-right: 5px;
+    text-decoration: none;
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
 .linkP {
@@ -91,6 +92,9 @@ nav>ul {
     border-right-color: #4aaaa5;
     border-right-width: thin;
     padding-right: 5px;
+    text-decoration: none;
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
 .linkC {
@@ -98,6 +102,9 @@ nav>ul {
     border-right-color: #4aaaa5;
     border-right-width: thin;
     padding-right: 5px;
+    text-decoration: none;
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
 li {
@@ -142,11 +149,14 @@ h3 {
     font-size: x-large;
     font-weight: bold;
     padding-bottom: 20px;
+    padding-top: 20px;
     border-bottom-style: solid;
     border-bottom-color: #4aaaa5;
     border-bottom-width: medium;
     margin-left: 10px;
     margin-right: 10px;
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
 #mePic {
@@ -165,7 +175,7 @@ h3 {
     position: relative;
     top: 20px;
     width: 548px;
-    height: 418px;
+    height: 430px;
     margin-left: 100px;
     background-color: #ffffff;
     padding-bottom: 20px;
@@ -173,9 +183,12 @@ h3 {
 
 h2 {
     margin-left: 5px;
+    padding-top: 5px;
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
-p {
+.meP {
     line-height: 1.5;
     margin-left: 10px;
     margin-right: 10px;
@@ -201,4 +214,79 @@ footer {
     border-top-style: solid;
     border-top-color: #4aaaa5;
     border-top-width: medium;
+}
+#hang{
+    position: relative;
+    top: 20px;
+    width: 200px;
+    height: 200px;
+    margin-left: 50px;
+    background-image: url('../images/hangman.png');
+    padding-bottom: 20px;
+    border-style: solid;
+    border-color: #4aaaa5;
+    border-width: thin;
+}
+#rpg{
+    position: relative;
+    left: 300px;
+    top: -200px;
+    width: 200px;
+    height: 200px;
+    background-image: url('../images/rpg.png');
+    padding-bottom: 20px;
+}
+#trivia{
+    position: relative;
+    left: 50px;
+    top: -180px;
+    width: 200px;
+    height: 200px;
+    background-image: url('../images/trivia.png');
+    padding-bottom: 20px;
+}
+#riw{
+    position: relative;
+    left: 300px;
+    top: -400px;
+    width: 200px;
+    height: 200px;
+    background-image: url('../images/rutgers.jpg');
+    padding-bottom: 20px;
+}
+#rps{
+    position: relative;
+    left: 50px;
+    top: -380px;
+    width: 200px;
+    height: 200px;
+    background-image: url('../images/rps.jpg');
+    padding-bottom: 20px;
+}
+.port{
+    background-color: #4aaaa5;
+    height: 40px;
+    width: 200px;
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 170px;
+}
+#myPort{
+    position: relative;
+    top: 20px;
+    width: 548px;
+    height: 830px;
+    margin-left: 100px;
+    background-color: #ffffff;
+    padding-bottom: 20px;
+}
+#contact{
+    position: relative;
+    top: 20px;
+    width: 548px;
+    height: 540px;
+    margin-left: 100px;
+    background-color: #ffffff;
+    padding-bottom: 20px;
 }
